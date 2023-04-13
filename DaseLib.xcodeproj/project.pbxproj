@@ -15,6 +15,7 @@
 		B94D7E9429E7E978005764DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D7E9329E7E978005764DA /* ContentView.swift */; };
 		B94D7E9629E7E979005764DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94D7E9529E7E979005764DA /* Assets.xcassets */; };
 		B94D7E9929E7E979005764DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94D7E9829E7E979005764DA /* Preview Assets.xcassets */; };
+		B94D7E9E29E81446005764DA /* DaseLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D7E9D29E81446005764DA /* DaseLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B94D7E9329E7E978005764DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B94D7E9529E7E979005764DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B94D7E9829E7E979005764DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B94D7E9D29E81446005764DA /* DaseLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaseLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				B94D7E7429E7E76B005764DA /* DaseLib.h */,
 				B94D7E7529E7E76B005764DA /* DaseLib.docc */,
+				B94D7E9D29E81446005764DA /* DaseLib.swift */,
 			);
 			path = DaseLib;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94D7E9E29E81446005764DA /* DaseLib.swift in Sources */,
 				B94D7E7629E7E76B005764DA /* DaseLib.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +482,7 @@
 		B94D7E8929E7E76B005764DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9X32D7X79X;
@@ -494,6 +499,7 @@
 		B94D7E8A29E7E76B005764DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9X32D7X79X;
