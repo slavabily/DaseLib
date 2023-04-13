@@ -23,5 +23,9 @@ final class DaseLibTests: XCTestCase {
     func testSub() {
             XCTAssertEqual(daseLib.sub(a: 2, b: 1), 1)
     }
+    
+    func testMult() {
+        XCTAssertEqual(daseLib.mult(a: 2, b: 2), 4)
+    }
 
 }
